@@ -1,5 +1,4 @@
 import React from 'react';
-import NumberList from './8.ListsAndKeys/NumberList';
 import './App.css';
 import Toggle from './6.HandleEvent/Toggle'
 
