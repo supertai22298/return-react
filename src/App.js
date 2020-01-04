@@ -1,13 +1,11 @@
 import React from 'react';
-import LoginControl from './7.ConditionalRendering/LoginControl';
-import Mailbox from './7.ConditionalRendering/Mailbox';
+import NumberList from './8.ListsAndKeys/NumberList';
 import './App.css';
 function App() {
-  const messages = ['tai ơi', 'cái chi rứa', 'con ku']
+  const messages = ['Mua bánh', 'Uống nước']
   return (
     <div className="App">
-      <LoginControl/>
-      <Mailbox unreadMessages={messages}/>
+      <NumberList numbers={messages}/>
     </div>
   );
 }
