@@ -1,11 +1,11 @@
-import React from 'react';
-import NumberList from './8.ListsAndKeys/NumberList';
-import './App.css';
+import React from "react";
+import Calculator from "./10.LiftingStateUp/Calculator";
+import "./App.css";
 function App() {
-  const messages = ['Mua bánh', 'Uống nước']
+  const messages = ["Mua bánh", "Uống nước"];
   return (
     <div className="App">
-      <NumberList numbers={messages}/>
+      <Calculator />
     </div>
   );
 }
