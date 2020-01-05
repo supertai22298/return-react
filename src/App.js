@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import Toggle from './6.HandleEvent/Toggle'
-
+import Reservation from './9.Forms/Reservation'
 function App() {
   const messages = ['Mua bánh', 'Uống nước']
   return (
     <div className="App">
-      <Toggle/>
+      <Reservation/>
     </div>
   );
 }
